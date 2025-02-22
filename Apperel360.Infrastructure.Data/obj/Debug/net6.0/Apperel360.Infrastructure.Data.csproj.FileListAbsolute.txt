@@ -1,0 +1,15 @@
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Infrastructure.Data\bin\Debug\net6.0\Apperel360.Infrastructure.Data.deps.json
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Infrastructure.Data\bin\Debug\net6.0\Apperel360.Infrastructure.Data.dll
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Infrastructure.Data\bin\Debug\net6.0\Apperel360.Infrastructure.Data.pdb
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Infrastructure.Data\bin\Debug\net6.0\Apperel360.Domain.dll
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Infrastructure.Data\bin\Debug\net6.0\Apperel360.Domain.pdb
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Infrastructure.Data\obj\Debug\net6.0\Apperel360.Infrastructure.Data.csproj.AssemblyReference.cache
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Infrastructure.Data\obj\Debug\net6.0\Apperel360.Infrastructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Infrastructure.Data\obj\Debug\net6.0\Apperel360.Infrastructure.Data.AssemblyInfoInputs.cache
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Infrastructure.Data\obj\Debug\net6.0\Apperel360.Infrastructure.Data.AssemblyInfo.cs
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Infrastructure.Data\obj\Debug\net6.0\Apperel360.Infrastructure.Data.csproj.CoreCompileInputs.cache
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Infrastructure.Data\obj\Debug\net6.0\Apperel360.Infrastructure.Data.csproj.CopyComplete
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Infrastructure.Data\obj\Debug\net6.0\Apperel360.Infrastructure.Data.dll
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Infrastructure.Data\obj\Debug\net6.0\refint\Apperel360.Infrastructure.Data.dll
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Infrastructure.Data\obj\Debug\net6.0\Apperel360.Infrastructure.Data.pdb
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Infrastructure.Data\obj\Debug\net6.0\ref\Apperel360.Infrastructure.Data.dll

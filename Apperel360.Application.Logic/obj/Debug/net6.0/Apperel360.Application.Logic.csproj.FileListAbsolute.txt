@@ -1,0 +1,15 @@
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Application.Logic\bin\Debug\net6.0\Apperel360.Application.Logic.deps.json
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Application.Logic\bin\Debug\net6.0\Apperel360.Application.Logic.dll
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Application.Logic\bin\Debug\net6.0\Apperel360.Application.Logic.pdb
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Application.Logic\bin\Debug\net6.0\Apperel360.Domain.dll
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Application.Logic\bin\Debug\net6.0\Apperel360.Domain.pdb
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Application.Logic\obj\Debug\net6.0\Apperel360.Application.Logic.csproj.AssemblyReference.cache
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Application.Logic\obj\Debug\net6.0\Apperel360.Application.Logic.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Application.Logic\obj\Debug\net6.0\Apperel360.Application.Logic.AssemblyInfoInputs.cache
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Application.Logic\obj\Debug\net6.0\Apperel360.Application.Logic.AssemblyInfo.cs
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Application.Logic\obj\Debug\net6.0\Apperel360.Application.Logic.csproj.CoreCompileInputs.cache
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Application.Logic\obj\Debug\net6.0\Apperel360.Application.Logic.csproj.CopyComplete
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Application.Logic\obj\Debug\net6.0\Apperel360.Application.Logic.dll
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Application.Logic\obj\Debug\net6.0\refint\Apperel360.Application.Logic.dll
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Application.Logic\obj\Debug\net6.0\Apperel360.Application.Logic.pdb
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Application.Logic\obj\Debug\net6.0\ref\Apperel360.Application.Logic.dll

@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apperel360.API", "Apperel360.API", "{1A068861-F747-4D27-9A02-F74215A25A5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apperel360.Domain", "Apperel360.Domain", "{97A74E9E-07A7-4B1E-AA74-D4D5E63B5599}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apperel360.Application", "Apperel360.Application", "{D38471CE-456E-4207-B669-FBB921B65F95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apperel360.Application.Logic", "Apperel360.Application.Logic", "{223AF824-FCE5-41DC-AD7E-DD188525DCB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apperel360.Infrastructure.Data", "Apperel360.Infrastructure.Data", "{02630C60-C7AA-4145-A6A6-55E2ACC7CA9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apperel360.Infrastructure.IoC", "Apperel360.Infrastructure.IoC", "{72A09089-714F-4A9C-8C12-D566CD22ABF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apperel360.Application", "Apperel360.Application\Apperel360.Application.csproj", "{A014FA24-CDEC-42D1-BC0B-7DC98DFAE1E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apperel360.Application.Logic", "Apperel360.Application.Logic\Apperel360.Application.Logic.csproj", "{78013358-6B34-44B5-A066-AD98E7B38450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apperel360.Domain", "Apperel360.Domain\Apperel360.Domain.csproj", "{E6E84122-50C8-45CF-9627-B3318441FBCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apperel360.Infrastructure.Data", "Apperel360.Infrastructure.Data\Apperel360.Infrastructure.Data.csproj", "{3FAA05A5-CAE5-4A41-929B-24D7D774370B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apperel360.Infrastructure.IoC", "Apperel360.Infrastructure.IoC\Apperel360.Infrastructure.IoC.csproj", "{1516534C-99BF-4059-A5F9-7534C190F313}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apperel360.API", "Apperel360.API\Apperel360.API.csproj", "{A13F3206-DB52-4202-BEEA-DAE332522942}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A014FA24-CDEC-42D1-BC0B-7DC98DFAE1E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A014FA24-CDEC-42D1-BC0B-7DC98DFAE1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A014FA24-CDEC-42D1-BC0B-7DC98DFAE1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A014FA24-CDEC-42D1-BC0B-7DC98DFAE1E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78013358-6B34-44B5-A066-AD98E7B38450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78013358-6B34-44B5-A066-AD98E7B38450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78013358-6B34-44B5-A066-AD98E7B38450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78013358-6B34-44B5-A066-AD98E7B38450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6E84122-50C8-45CF-9627-B3318441FBCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6E84122-50C8-45CF-9627-B3318441FBCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6E84122-50C8-45CF-9627-B3318441FBCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6E84122-50C8-45CF-9627-B3318441FBCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FAA05A5-CAE5-4A41-929B-24D7D774370B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FAA05A5-CAE5-4A41-929B-24D7D774370B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FAA05A5-CAE5-4A41-929B-24D7D774370B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FAA05A5-CAE5-4A41-929B-24D7D774370B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1516534C-99BF-4059-A5F9-7534C190F313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1516534C-99BF-4059-A5F9-7534C190F313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1516534C-99BF-4059-A5F9-7534C190F313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1516534C-99BF-4059-A5F9-7534C190F313}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A13F3206-DB52-4202-BEEA-DAE332522942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A13F3206-DB52-4202-BEEA-DAE332522942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A13F3206-DB52-4202-BEEA-DAE332522942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A13F3206-DB52-4202-BEEA-DAE332522942}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A014FA24-CDEC-42D1-BC0B-7DC98DFAE1E2} = {D38471CE-456E-4207-B669-FBB921B65F95}
+		{78013358-6B34-44B5-A066-AD98E7B38450} = {223AF824-FCE5-41DC-AD7E-DD188525DCB2}
+		{E6E84122-50C8-45CF-9627-B3318441FBCF} = {97A74E9E-07A7-4B1E-AA74-D4D5E63B5599}
+		{3FAA05A5-CAE5-4A41-929B-24D7D774370B} = {02630C60-C7AA-4145-A6A6-55E2ACC7CA9B}
+		{1516534C-99BF-4059-A5F9-7534C190F313} = {72A09089-714F-4A9C-8C12-D566CD22ABF9}
+		{A13F3206-DB52-4202-BEEA-DAE332522942} = {1A068861-F747-4D27-9A02-F74215A25A5D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {157FA9F3-988F-479C-A9EF-5CC0CD5EE721}
+	EndGlobalSection
+EndGlobal

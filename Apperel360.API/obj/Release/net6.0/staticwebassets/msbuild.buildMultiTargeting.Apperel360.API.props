@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Apperel360.API.props" />
+</Project>

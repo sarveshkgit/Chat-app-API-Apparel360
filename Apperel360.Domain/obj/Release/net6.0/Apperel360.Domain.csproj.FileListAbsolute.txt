@@ -1,0 +1,12 @@
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Domain\bin\Release\net6.0\Apperel360.Domain.deps.json
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Domain\bin\Release\net6.0\Apperel360.Domain.dll
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Domain\bin\Release\net6.0\Apperel360.Domain.pdb
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Domain\obj\Release\net6.0\Apperel360.Domain.csproj.AssemblyReference.cache
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Domain\obj\Release\net6.0\Apperel360.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Domain\obj\Release\net6.0\Apperel360.Domain.AssemblyInfoInputs.cache
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Domain\obj\Release\net6.0\Apperel360.Domain.AssemblyInfo.cs
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Domain\obj\Release\net6.0\Apperel360.Domain.csproj.CoreCompileInputs.cache
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Domain\obj\Release\net6.0\Apperel360.Domain.dll
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Domain\obj\Release\net6.0\refint\Apperel360.Domain.dll
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Domain\obj\Release\net6.0\Apperel360.Domain.pdb
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.Domain\obj\Release\net6.0\ref\Apperel360.Domain.dll

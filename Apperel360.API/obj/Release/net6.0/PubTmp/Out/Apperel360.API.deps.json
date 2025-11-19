@@ -578,7 +578,8 @@
       },
       "Apperel360.Domain/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "9.0.1"
+          "Microsoft.AspNetCore.Authorization": "9.0.1",
+          "Microsoft.AspNetCore.Http": "2.3.0"
         },
         "runtime": {
           "Apperel360.Domain.dll": {}

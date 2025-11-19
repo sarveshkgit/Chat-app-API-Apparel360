@@ -1102,7 +1102,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Authorization": "9.0.1"
+          "Microsoft.AspNetCore.Authorization": "9.0.1",
+          "Microsoft.AspNetCore.Http": "2.3.0"
         },
         "compile": {
           "bin/placeholder/Apperel360.Domain.dll": {}

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -13,6 +13,16 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Apperel360.Infrastructure.IoC\Apperel360.Infrastructure.IoC.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <!--<Content Include="wwwroot\Images\**\*">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>-->
+    <Folder Include="Images\" />
+    <Folder Include="ProfileImages\" />
+    <Folder Include="wwwroot\Images\" />
+    <Folder Include="wwwroot\ProfileImages\" />
   </ItemGroup>
 
 </Project>

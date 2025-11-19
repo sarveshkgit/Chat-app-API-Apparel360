@@ -15,6 +15,7 @@ namespace Apperel360.Domain.Models
         public static string InValidRequest { get { return "Invalid Request."; } }
         public static string AllFieldsMandatory { get { return "All fields are required."; } }
         public static string RegisterSuccessfully { get { return "Register successfully."; } }
+        public static string MessageSentSuccessfully { get { return "Message Sent successfully."; } }
         public static string RecordSavedSuccessfully { get { return "Record saved successfully."; } }
         public static string RecordUpdatedSuccessfully { get { return "Record updated successfully."; } }
         public static string RecordDeletedSuccessfully { get { return "Record deleted successfully."; } }
@@ -30,8 +31,8 @@ namespace Apperel360.Domain.Models
     }
     public enum RoleEnum
     {
-        SuperAdmin = 1,
-        Admin = 2,
-        User = 3
+        Admin = 1,
+        Employee = 2,
+        Customer = 3
     }
 }

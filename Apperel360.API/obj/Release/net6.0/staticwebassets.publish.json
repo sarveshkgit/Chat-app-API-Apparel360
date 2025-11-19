@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "z6CDgNxT/RwY2NcrAni+8UH1q86aqUWiPpqLJ4G/nZE=",
+  "Hash": "U5J9Pggq8jFjbvjZ89qE+noeFfDE8yxU5ns99+TjdwE=",
   "Source": "Apperel360.API",
   "BasePath": "_content/Apperel360.API",
   "Mode": "Default",
   "ManifestType": "Publish",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Apperel360.API\\wwwroot",
+      "Source": "Apperel360.API",
+      "ContentRoot": "D:\\WorkStation\\Apprel360\\backendapi\\Apprel360\\Apperel360.API\\wwwroot\\",
+      "BasePath": "_content/Apperel360.API",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

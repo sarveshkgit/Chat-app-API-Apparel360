@@ -72,3 +72,4 @@ D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.API\obj\Release\net6.0\
 D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.API\obj\Release\net6.0\Apperel360.API.pdb
 D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.API\obj\Release\net6.0\Apperel360.API.genruntimeconfig.cache
 D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.API\obj\Release\net6.0\ref\Apperel360.API.dll
+D:\WorkStation\Apprel360\backendapi\Apprel360\Apperel360.API\bin\Release\net6.0\Apperel360.API.staticwebassets.runtime.json

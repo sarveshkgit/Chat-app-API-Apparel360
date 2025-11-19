@@ -12,6 +12,7 @@ using System.Net;
 
 namespace Apperel360.API.Controllers
 {
+    [Produces("application/json")]
     [Route("api/[controller]/[action]")]
     [ApiController]
     public sealed class ChatsController : ControllerBase
@@ -20,17 +21,17 @@ namespace Apperel360.API.Controllers
         IHubContext<ChatHub> _hubContext;
         private IJwtToken _jwtToken;
         private IAppUtility _appUtility;
-        public ChatsController(IChatService chatService, IHubContext<ChatHub> hubContext, IJwtToken jwtToken,IAppUtility appUtility)
+        public ChatsController(IChatService chatService, IHubContext<ChatHub> hubContext, IJwtToken jwtToken, IAppUtility appUtility)
         {
             _chatService = chatService;
-            _hubContext= hubContext;
+            _hubContext = hubContext;
             _jwtToken = jwtToken;
             _appUtility = appUtility;
         }
 
 
-        [HttpPost, Route("GetChats")]
-        [AllowAnonymous]
+        [HttpGet]
+        [ActionName("GetChats")]
         public IActionResult GetChats(Guid SenderUserID, Guid ReceiverUserID)
         {
             try
@@ -39,7 +40,7 @@ namespace Apperel360.API.Controllers
                 {
                     return BadRequest();
                 }
-                var messageDetails = _chatService.GetChats(SenderUserID,ReceiverUserID);
+                var messageDetails = _chatService.GetChats(SenderUserID, ReceiverUserID);
                 if (messageDetails != null)
                 {
                     return Ok(new { Type = "success", Code = "001", Message = "Message Send Successfully", Data = messageDetails });
@@ -48,18 +49,18 @@ namespace Apperel360.API.Controllers
                 {
                     return Ok(new { Type = "fail", Code = HttpStatusCode.BadRequest.ToString(), Message = MessageStream.SomethingWentWrong });
                 }
-                
+
             }
             catch (Exception ex)
             {
                 return Ok(new { Type = "fail", Code = HttpStatusCode.BadRequest.ToString(), Message = ex.Message });
             }
-            
+
         }
 
-        [HttpPost, Route("SendMessage")]
-        [AllowAnonymous]
-        public IActionResult SendMessage([FromBody] ChatModels model)
+        [HttpPost]
+        [ActionName("SendMessage")]
+        public async Task<IActionResult> SendMessage([FromBody] ChatModels model)
         {
             try
             {
@@ -67,14 +68,18 @@ namespace Apperel360.API.Controllers
                 {
                     return BadRequest();
                 }
-                var user = _chatService.SendMessage(model);
-                if (user != null)
+                var messageData = _chatService.SendMessage(model);
+                if (messageData != null)
                 {
-                    if (user.IsSucess == 1)
+                    if (messageData.IsSucess == 1)
                     {
-                        string connectionId = ChatHub.Users.First(p => p.Value == model.ReceiverUserID).Key;
-                        _hubContext.Clients.Client(connectionId).SendAsync("Messages", model);
-                        return Ok(new { Type = "success", Code = HttpStatusCode.OK.ToString(), Message = MessageStream.RegisterSuccessfully, Data = user });
+                        var connectionId = ChatHub.Users.FirstOrDefault(p => p.Value == model.ReceiverUserID).Key;
+                        if (connectionId != null)
+                        {
+                            await _hubContext.Clients.Client(connectionId.ToString()).SendAsync("Messages", model);
+                        }
+
+                        return Ok(new { Type = "success", Code = HttpStatusCode.OK.ToString(), Message = MessageStream.MessageSentSuccessfully, Data = model });
                     }
                     else
                         return Ok(new { Type = "fail", Code = HttpStatusCode.OK.ToString(), Message = MessageStream.SomethingWentWrong });

@@ -46,6 +46,28 @@ namespace Apperel360.Application.Services
             };
         }
 
+        public UserViewModel GetAdminLogin(AdminLoginModel login)
+        {
+            var userlogin = _accountRepository.GetAdminLogin(login.UserName, login.Password, login.IpAddress);
+            if (userlogin == null)
+            {
+                return null;
+            }
+            return new UserViewModel()
+            {
+                UserName = userlogin.UserName,
+                RoleName = userlogin.RoleName,
+                UserID = userlogin.UserID,
+                Name = userlogin.Name,
+                MobileNo = userlogin.MobileNo,
+                EmailId = userlogin.EmailId,
+                ProfilePicPath = userlogin.ProfilePicPath,
+                LastLogin = userlogin.LastLogin,
+                LastChanged = userlogin.LastChanged,
+                IsActive = userlogin.IsActive
+            };
+        }
+
         public UserViewModel GetUserDetail(Guid userId)
         {
             var data = _accountRepository.GetUserDetail(userId);
@@ -60,6 +82,10 @@ namespace Apperel360.Application.Services
                 MobileNo = data.MobileNo,
                 Status = data.Status
             };
+        }
+        public int UpdateUserStatus(Guid userId, string Status)
+        {
+            return _accountRepository.UpdateUserStatus(userId, Status);
         }
         public UserViewModel VerifyUserDetail(string mobileNo, string OTP)
         {
@@ -88,6 +114,56 @@ namespace Apperel360.Application.Services
         public int UpdateOtpCount(Guid userId, string mobileNo, string OTP)
         {
             return _accountRepository.UpdateOtpCount(userId, mobileNo, OTP);
+        }
+
+        public UserViewModel AddEmployeeUser(RegistrationModel registrationModel)
+        {
+            return _accountRepository.AddEmployeeUser(registrationModel);
+        }
+
+        public UserViewModel UpdateEmployeeUser(RegistrationModel registrationModel)
+        {
+            return _accountRepository.UpdateEmployeeUser(registrationModel);
+        }
+
+        public List<UserViewModel> GetEmployeeUsersList()
+        {
+            return _accountRepository.GetEmployeeUsersList();
+        }
+
+        public UserViewModel GetEmployeeUserById(int Id)
+        {
+            return _accountRepository.GetEmployeeUserById(Id);
+        }
+        public long Delete(int ID)
+        {
+            return _accountRepository.Delete(ID);
+        }
+        public List<UserViewModel> GetCustomerUsersList()
+        {
+            return _accountRepository.GetCustomerUsersList();
+        }
+        public int UsersMapping(UserMappingModel viewModel)
+        {
+            return _accountRepository.UsersMapping(viewModel);
+        }
+        public List<CustomerUsersMappedViewModel> GetCustomerUsersMappedList(CustomerUsersMappingRequestModel model)
+        {
+            return _accountRepository.GetCustomerUsersMappedList(model);
+        }
+
+        public UserProfileResponseModel GetUserProfileByUserId(Guid userId)
+        {
+            return _accountRepository.GetUserProfileByUserId(userId);
+        }
+        public UserProfileResponseModel UpdateUserProfile(UserProfileRequestModel model)
+        {
+            return _accountRepository.UpdateUserProfile(model);
+        }
+
+        public UserProfileResponseModel UpdateProfileImage(ProfileImageUploadModel model)
+        {
+            return _accountRepository.UpdateProfileImage(model);
         }
     }
 }

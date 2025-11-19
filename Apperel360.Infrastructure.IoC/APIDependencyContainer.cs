@@ -48,7 +48,8 @@ namespace Apperel360.Infrastructure.IoC
             services.AddAuthorization(config =>
             {
                 config.AddPolicy(PoliciesModel.Admin, PoliciesModel.AdminPolicy());
-                config.AddPolicy(PoliciesModel.User, PoliciesModel.UserPolicy());
+                config.AddPolicy(PoliciesModel.Employee, PoliciesModel.EmployeePolicy());
+                config.AddPolicy(PoliciesModel.Customer, PoliciesModel.CustomerPolicy());
             });
 
 
@@ -72,6 +73,8 @@ namespace Apperel360.Infrastructure.IoC
             services.AddScoped<IAccountService, AccountService>();
             services.AddScoped<IChatRepository, ChatRepository>();
             services.AddScoped<IChatService, ChatService>();
+            services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IProductService, ProductService>();
 
             services.AddScoped<IJwtToken, JwtToken>();
 
